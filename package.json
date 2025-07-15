@@ -1,0 +1,20 @@
+{
+  "name": "cypress-demoblaze",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:chrome": "cypress run -- browser chrome",
+    "smoke": " cypress run --env grepTags='@smoke'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.5.1"
+  },
+  "devDependencies": {
+    "@cypress/grep": "^4.1.0",
+    "cypress-mochawesome-reporter": "^4.0.0"
+  }
+}
